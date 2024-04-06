@@ -8,7 +8,7 @@ const Header = () => {
         <Link to="/">
           <h1 className="text-gray-800 text-xl font-bold">Mern Auth</h1>
         </Link>
-        <ul className="flex gap gap-5 text-xl">
+        <ul className="flex gap gap-5 text-xl font-medium">
           <Link to="/"></Link>
           <li>Home</li>
           <Link to="/about">
